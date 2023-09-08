@@ -20,7 +20,7 @@ const Header = (
     }: HeaderProps
     ) => { 
         return ( 
-            <div className="border-2 border-red-500 flex px-4 lg:px-8 items-center mb-8 gap-x-3">
+            <div className="flex px-4 lg:px-8 items-center mb-8 gap-x-3">
                 <div className={cn("w-fit p-2 rounded-md", iconBg)}>
                     <Icon className={cn("h-8 w-8 ", iconColor)} />
                 </div>
