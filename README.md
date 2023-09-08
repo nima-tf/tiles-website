@@ -14,4 +14,6 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Technical Debt
 
-- sign in/up button issue on the landing page when already logged in
+- When on Landing page and already signed in, the sign in/up buttons need to properly disapear
+- In the Conversation page, the entered question needs proper spacing
+- In the Conversation page, avatar and text in the conversation cards need proper alignment  
