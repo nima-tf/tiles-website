@@ -1,3 +1,7 @@
+# Tileable
+Personal utility website based on what what imagined by Midjourney!
+
+![Imagination](img/midjourney-design.png)
 ### Built With
 
 ![Next.js](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
@@ -14,18 +18,13 @@
 
 ## Getting Started
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-### Prerequisites
-First, install node packages locally:
 
-```sh
-npm install npm@latest -g
-```
-
-### Installation
+## Running locally
 
 Then, run the development server:
 
 ```bash
+npm install npm@latest -g
 npm run dev
 ```
 
@@ -33,10 +32,23 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Roadmap
+## To-dos
 
-See the [project board](https://github.com/users/nima-tf/projects/2/views/1) for a full list of tasks for known bugs.
+- [x] Code generation page layout and chatGPT API setup
+- [ ] Music generation page layout and API setup
+- [ ] Video generation page layout and API setup
+- [ ] Usage limiter BLCs and UI component
+- [ ] Landing page
+- [ ] Stripe setup
+
+### Bugs
+- [ ] When on Landing page and already signed in, the sign in/up buttons need to properly disapear
+- [ ] In the Conversation page, the entered question needs proper spacing
+- [ ] In the Conversation page, avatar and text in the conversation cards need proper alignment
+
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
