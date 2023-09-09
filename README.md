@@ -4,15 +4,15 @@ Personal utility website based on what what imagined by Midjourney!
 ![Imagination](img/midjourney-design.png)
 ### Built With
 
-![Next.js](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind css](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![React.js](https://img.shields.io/badge/Radix-white?style=for-the-badge&logo=radixui&logoColor=black)
-![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai&logoColor=white)
-![Clerk](https://img.shields.io/badge/Clerk-7B68EE?style=for-the-badge&logo=zod&logoColor=#7B68EE)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=#3E67B1)
-![Zod](https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white)
+![Next.js][https://nextjs.org/](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React.js][https://react.dev/](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Typescript][https://www.typescriptlang.org/](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind css][https://tailwindcss.com/](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Radix UI][https://www.radix-ui.com/](https://img.shields.io/badge/Radix-white?style=for-the-badge&logo=radixui&logoColor=black)
+![OpenAI][https://openai.com/](https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai&logoColor=white)
+![Clerk][https://clerk.com/](https://img.shields.io/badge/Clerk-7B68EE?style=for-the-badge&logo=zod&logoColor=#7B68EE)
+![Zod][https://zod.dev/](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=#3E67B1)
+![Axios][https://axios-http.com/](https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white)
 
 ## Running locally
 
