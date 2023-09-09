@@ -37,24 +37,6 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Roadmap
 
-### Features
-
-- [x] Authentication setup
-- [x] Dashboard layout
-- [x] Setup chatGPT conversation page 
-- [ ] Setup chatGPT code completion page
-    - [ ] Page layout
-    - [ ] API setup
-- [ ] Setup Dall-E image generation
-    - [ ] Page layout
-    - [ ] API setup
-
-### Technical Debt
-
-- [ ] When on Landing page and already signed in, the sign in/up buttons need to properly disapear
-- [ ] In the Conversation page, the entered question needs proper spacing
-- [ ] In the Conversation page, avatar and text in the conversation cards need proper alignment  
-
 See the [project board](https://github.com/users/nima-tf/projects/2/views/1) for a full list of tasks for known bugs.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
