@@ -36,6 +36,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 - [ ] Usage limiter BLCs and UI component
 - [ ] Landing page
 - [ ] Stripe setup
+- [ ] Experiment with Next server actions for API routes
 
 ### Bugs
 - [ ] When on Landing page and already signed in, the sign in/up buttons need to properly disapear
