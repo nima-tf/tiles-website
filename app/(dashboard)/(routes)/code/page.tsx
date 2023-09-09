@@ -14,7 +14,7 @@ import ReactMarkdown from "react-markdown";
 
 import Header from "@/components/header";
 import { Loader } from "@/components/loader";
-import { formSchema } from "./constants";
+import { formSchema } from "../constants";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Empty } from "@/components/empty";
