@@ -41,6 +41,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 - [ ] When on Landing page and already signed in, the sign in/up buttons need to properly disapear
 - [ ] In the Conversation page, the entered question needs proper spacing
 - [ ] In the Conversation page, avatar and text in the conversation cards need proper alignment
+- [x] On the sidebar, the button order should match the button order in the dashboard
+- [ ] In the Conversation and Code page, AI and user avatars need to switch positions
 
 
 

@@ -1,12 +1,13 @@
 "use client";
 
+import axios from "axios";
+import * as z from "zod";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Download, ImageIcon, MessageSquare } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
-import axios from "axios";
-import * as z from "zod";
 
 import Header from "@/components/header";
 import { Loader } from "@/components/loader";
@@ -33,7 +34,6 @@ import {
   FormItem,
   FormMessage,
 } from "@/components/ui/form";
-import Image from "next/image";
 
 const ImagePage = () => {
   const router = useRouter();
@@ -64,6 +64,8 @@ const ImagePage = () => {
       router.refresh();
     }
   };
+
+  
 
   return (
     <div>
@@ -179,10 +181,12 @@ const ImagePage = () => {
                   <Image alt="Image" fill src={src} />
                 </div>
                 <CardFooter className="p-2">
-                  <Button variant="secondary" className="w-full" onClick={() => window.open(src)}>
-                    <Download className="h-4 w-4 mr-2">
-                      Download
-                    </Download>
+                  <Button
+                    variant="secondary"
+                    className="w-full"
+                    onClick={() => window.open(src)}
+                  >
+                    <Download className="h-4 w-4 mr-2">Download</Download>
                   </Button>
                 </CardFooter>
               </Card>
