@@ -31,7 +31,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 ## To-dos
 
 - [x] Code generation page layout and chatGPT API setup
-- [ ] Music generation page layout and API setup
+- [x] Music generation page layout and API setup
 - [ ] Usage limiter BLCs and UI component
 - [ ] Landing page
 - [ ] Stripe setup
