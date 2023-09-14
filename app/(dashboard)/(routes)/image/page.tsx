@@ -15,6 +15,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Empty } from "@/components/empty";
 import { Card, CardFooter } from "@/components/ui/card";
+import { useProModal } from "@/hooks/use-pro-modal";
 import {
   imageFormSchema,
   imageAmountOptions,
@@ -36,6 +37,7 @@ import {
 } from "@/components/ui/form";
 
 const ImagePage = () => {
+  const proModal = useProModal();
   const router = useRouter();
 
   const [images, setImages] = useState<string[]>([]);
@@ -59,7 +61,9 @@ const ImagePage = () => {
       setImages(urls);
       form.reset();
     } catch (error: any) {
-      console.log(error);
+      if (error?.response?.status === 403) {
+        proModal.onOpen();
+      }
     } finally {
       router.refresh();
     }

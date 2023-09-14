@@ -38,12 +38,12 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 - [ ] Experiment with Next server actions for API routes
 
 ### Bugs
+- [x] On the sidebar, the button order should match the button order in the dashboard
 - [ ] When on Landing page and already signed in, the sign in/up buttons need to properly disapear
 - [ ] In the Conversation page, the entered question needs proper spacing
 - [ ] In the Conversation page, avatar and text in the conversation cards need proper alignment
-- [x] On the sidebar, the button order should match the button order in the dashboard
 - [ ] In the Conversation and Code page, AI and user avatars need to switch positions
-
+- [ ] In dashboard page, I want the mobileSidebar to show free trial progress bar data
 
 
 

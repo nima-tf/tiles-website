@@ -7,6 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { MAX_FREE_COUNTS } from "@/constants";
 import { Button } from "@/components/ui/button";
+import { useProModal } from "@/hooks/use-pro-modal";
 
 interface TrialCounterProps {
   usageLimitCount: number;
@@ -14,6 +15,7 @@ interface TrialCounterProps {
 
 const TrialCounter = ({ usageLimitCount = 0 }: TrialCounterProps) => {
   const [mount, setMount] = useState(false);
+  const proModal = useProModal();
 
   useEffect(() => {
     setMount(true);
@@ -36,7 +38,7 @@ const TrialCounter = ({ usageLimitCount = 0 }: TrialCounterProps) => {
               value={(usageLimitCount / MAX_FREE_COUNTS) * 100}
             />
           </div>
-          <Button className="w-full text-md" variant="premium">
+          <Button onClick={proModal.onOpen} className="w-full text-md" variant="premium">
             Upgrade
             <Zap className="w-4 h-4 ml-2 fill-white" />
           </Button>

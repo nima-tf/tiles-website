@@ -5,13 +5,13 @@ import { useEffect, useState } from "react";
 
 import Sidebar from "@/components/sidebar";
 import { Button } from "@/components/ui/button";
-import {
-  Sheet,
-  SheetContent,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
-const MobileSlider = () => {
+interface MobileSidebarProps {
+  usageLimitCount: number;
+}
+
+const MobileSidebar = ({ usageLimitCount }: MobileSidebarProps) => {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
@@ -30,10 +30,10 @@ const MobileSlider = () => {
         </Button>
       </SheetTrigger>
       <SheetContent side="left" className="p-0">
-        <Sidebar />
+        <Sidebar usageLimitCount={usageLimitCount} />
       </SheetContent>
     </Sheet>
   );
 };
 
-export default MobileSlider;
+export default MobileSidebar;
