@@ -63,7 +63,7 @@ interface SidebarProps {
   usageLimitCount?: number;
 }
 
-const Sidebar = ({ usageLimitCount = 0 }: SidebarProps) => {
+const Sidebar = ({ usageLimitCount}: SidebarProps) => {
   const pathname = usePathname();
   return (
     <div className="space-y-4 flex flex-col h-full bg-[#111827] text-white">
