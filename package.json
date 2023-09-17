@@ -11,8 +11,10 @@
   "dependencies": {
     "@clerk/nextjs": "^4.23.4",
     "@hookform/resolvers": "^3.3.1",
+    "@prisma/client": "^5.3.1",
     "@radix-ui/react-dialog": "^1.0.4",
     "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-progress": "^1.0.3",
     "@radix-ui/react-slot": "^1.0.2",
     "@types/node": "20.5.9",
     "@types/react": "18.2.21",
@@ -37,6 +39,7 @@
     "zustand": "^4.4.1"
   },
   "devDependencies": {
-    "concurrently": "^8.2.1"
+    "concurrently": "^8.2.1",
+    "prisma": "^5.3.1"
   }
 }
