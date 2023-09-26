@@ -5,9 +5,9 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { MusicIcon } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
-import OpenAI from "openai";
 import axios from "axios";
 import * as z from "zod";
+import toast from "react-hot-toast";
 
 import Header from "@/components/header";
 import { Loader } from "@/components/loader";
@@ -47,6 +47,8 @@ const MusicPage = () => {
     } catch (error: any) {
       if (error?.response?.status === 403) {
         proModal.onOpen();
+      } else {
+        toast.error("Something went wrong!!")
       }
     } finally {
       router.refresh();

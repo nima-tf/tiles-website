@@ -11,9 +11,13 @@ import { useProModal } from "@/hooks/use-pro-modal";
 
 interface TrialCounterProps {
   usageLimitCount: number;
+  isPro: boolean;
 }
 
-const TrialCounter = ({ usageLimitCount = 0 }: TrialCounterProps) => {
+const TrialCounter = ({
+  usageLimitCount = 0,
+  isPro = false,
+}: TrialCounterProps) => {
   const [mount, setMount] = useState(false);
   const proModal = useProModal();
 
@@ -22,6 +26,10 @@ const TrialCounter = ({ usageLimitCount = 0 }: TrialCounterProps) => {
   }, []);
 
   if (!mount) {
+    return null;
+  }
+
+  if (isPro) {
     return null;
   }
 
@@ -38,7 +46,11 @@ const TrialCounter = ({ usageLimitCount = 0 }: TrialCounterProps) => {
               value={(usageLimitCount / MAX_FREE_COUNTS) * 100}
             />
           </div>
-          <Button onClick={proModal.onOpen} className="w-full text-md" variant="premium">
+          <Button
+            onClick={proModal.onOpen}
+            className="w-full text-md"
+            variant="premium"
+          >
             Upgrade
             <Zap className="w-4 h-4 ml-2 fill-white" />
           </Button>

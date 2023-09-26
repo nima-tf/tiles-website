@@ -11,6 +11,7 @@ import axios from "axios";
 import * as z from "zod";
 import React from "react";
 import ReactMarkdown from "react-markdown";
+import toast from "react-hot-toast";
 
 import Header from "@/components/header";
 import { Loader } from "@/components/loader";
@@ -66,6 +67,8 @@ const CodePage = () => {
     } catch (error: any) {
       if (error?.response?.status === 403) {
         proModal.onOpen();
+      } else {
+        toast.error("Something went wrong!!")
       }
     } finally {
       router.refresh();
