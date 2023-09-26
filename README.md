@@ -10,7 +10,7 @@ Personal utility website based on what what imagined by Midjourney!
 ![Tailwind css](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Radix UI](https://img.shields.io/badge/Radix-white?style=for-the-badge&logo=radixui&logoColor=black)
 ![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai&logoColor=white)
-![Clerk](https://img.shields.io/badge/Clerk-7B68EE?style=for-the-badge&logo=zod&logoColor=#7B68EE)
+![Clerk](https://img.shields.io/badge/Clerk-7B68EE?style=for-the-badge&logo=clerk&logoColor=#7B68EE)
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=#3E67B1)
 ![Axios](https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white)
