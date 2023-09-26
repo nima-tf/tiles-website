@@ -47,6 +47,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 - [ ] In the Conversation page, avatar and text in the conversation cards need proper alignment
 - [ ] In the Conversation and Code page, AI and user avatars need to switch positions
 - [ ] In dashboard page, I want the mobileSidebar to show free trial progress bar data
+- [ ] In settings page, I want the subscribe/manage to open the correct links
+- [ ] In stripe payment page after completion, I want to redirect to the correct page
 
 
 
