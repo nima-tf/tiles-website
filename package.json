@@ -10,7 +10,8 @@
     "db": "npx prisma studio",
     "db-reset": "npx prisma migrate reset && npx prisma generate && npx prisma db push",
     "stripe-login": "stripe login",
-    "stripe-start": "stripe listen --forward-to localhost:3000/api/webhook"
+    "stripe-start": "stripe listen --forward-to localhost:3000/api/webhook",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.23.4",
